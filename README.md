@@ -8,4 +8,4 @@ This essential algorithm is virtually in most computers/smartphones.
 
 This project was done in a well collaborated group: Nguyen Tam, Johansson Alex, Dutruit Jérémie and Stenroth Johan.
 
-My main contribution is implement the A-star algorithm.
+My main contribution is the A-star implementation.
