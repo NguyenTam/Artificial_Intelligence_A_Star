@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<meta charset="utf-8" />
+<title>Maze Navigation</title>
+<style type="text/css">
+#mainContent {
+    font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	background-color: #E3F0FB;
+	border-radius: 4px;
+	padding: 10px;
+	text-align: center;
+}
+.buttonStyle {
+	border-radius: 4px;
+	border: thin solid #F0E020;
+	padding: 5px;
+	background-color: #F8F094;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	font-weight: bold;
+	color: #663300;
+	width: 175px;
+}
+.buttonStyle:hover {
+	border: thin solid #FFCC00;
+	background-color: #FCF9D6;
+	color: #996633;
+	cursor: pointer;
+}
+.buttonStyle:active {
+	border: thin solid #99CC00;
+	background-color: #F5FFD2;
+	color: #669900;
+	cursor: pointer;
+}
+</style>
+</head>
+<body>
+<div id="mainContent">
+	<p >Robodrop Rescue</p>
+	<p id="helloText" style="height:1em;"></p>
+	<div style="width:45%;display:inline;">
+		<canvas id="mazecanvas" width="800" height="600"
+	style="border:1px solid #000000;"></canvas>
+	</div>
+	<div style="width:45%;display:inline;">
+		<canvas id="robotmazecanvas" width="800" height="600"
+	style="border:1px solid #000000;"></canvas>
+	</div>
+	<div>
+		Canvas width: <input id="x" value=25 /> <br>
+		Canvas height: <input id="y" value=25 /> <br>
+		Wall probability: <input id="prob" value=0.4 /> <br>
+		Sensor range: <input id="sensor_range" type="number" min="1" step=1 value=5 /> <br>
+		<button id="genMazeButton" class="buttonStyle">generate</button>
+		<button id="pauseButton" class="buttonStyle">Go/Pause</button>
+		<button id="showPathButton" class="buttonStyle">Show Path</button>
+	</div>
+</div>
+<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
+
