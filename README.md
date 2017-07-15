@@ -8,3 +8,5 @@ This essential algorithm is virtually in most computers/smartphones.
 
 This project was done in a group: Nguyen Tam, Johansson Alex, Dutruit Jérémie and Stenroth Johan.
 My main contribution is the A-star implementation.
+
+See an example from the demo.mp4 (or the demo.ogv). The length of those video are 1 minute and 4 seconds.
