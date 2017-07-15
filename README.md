@@ -6,6 +6,5 @@ There are two visions: full vision and robot's vision.
 
 This essential algorithm is virtually in most computers/smartphones.
 
-This project was done in a well collaborated group: Nguyen Tam, Johansson Alex, Dutruit Jérémie and Stenroth Johan.
-
+This project was done in a group: Nguyen Tam, Johansson Alex, Dutruit Jérémie and Stenroth Johan.
 My main contribution is the A-star implementation.
