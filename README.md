@@ -10,3 +10,5 @@ This project was done in a group: Nguyen Tam, Johansson Alex, Dutruit Jérémie 
 My main contribution is the A-star implementation.
 
 See an example from the demo.mp4 (or the demo.ogv). The length of those video are 1 minute and 4 seconds.
+
+[A demo video](https://www.youtube.com/watch?v=6tNBbFSV2eE)
